@@ -101,13 +101,18 @@ body {
 }
 
 h2 {
+	clear: both;
   font-size: 20px;
   font-weight: bold;
+	margin: 20px auto;
+}
+
+.page {
+	margin: 0 auto;
+	max-width: 650px;
 }
 
 .page-content {
-  margin: 0 auto;
-  max-width: 650px;
   clear: both;
 }
 
@@ -137,15 +142,13 @@ h2 {
 	float: left;
 	margin: 20px;
 	padding: 10px;
+}
 
+.info {
+	clear: both;
+	line-height: 1.4em;
 }
 
 .row {
-  margin: 0 auto;
-  max-width: 650px;
-}
-
-.short-bio {
-	clear: both;
-	margin: 0 auto;
+	margin: 30px auto;
 }
