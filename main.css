@@ -65,6 +65,10 @@ Top Banner formatting
   overflow: auto;
 }
 
+.greeting {
+	margin: 30px auto;
+}
+
 .page-name {
   color: #AE5CC8;
   font-weight: bold;
@@ -82,6 +86,7 @@ input[type=text] {
   font-size: 18px;
   padding: 10px 30px;
   margin-bottom: 80px;
+	width: 55%;
 }
 
 .email-button {
@@ -91,6 +96,11 @@ input[type=text] {
   font-size: 18px;
   color: #FFF;
   padding: 10px 30px;
+	width: 30%;
+}
+
+.email-row {
+	width: 100%;
 }
 
 /*************************************
@@ -124,6 +134,7 @@ h2 {
   color: #9c9c9c;
   float: left;
   width: 193px;
+	margin-bottom: 30px;
   margin-right: 20px;
   font-size: 15px;
   line-height: 21px;
@@ -147,6 +158,11 @@ h2 {
 .info {
 	clear: both;
 	line-height: 1.4em;
+}
+
+.page-email {
+	background-color: #EEE;
+	margin-right: 10px;
 }
 
 .row {
