@@ -144,3 +144,8 @@ h2 {
   margin: 0 auto;
   max-width: 650px;
 }
+
+.short-bio {
+	clear: both;
+	margin: 0 auto;
+}
