@@ -132,6 +132,14 @@ h2 {
   color: #000000;
 }
 
+.logos li {
+	display: block;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+
+}
+
 .row {
   margin: 0 auto;
   max-width: 650px;
