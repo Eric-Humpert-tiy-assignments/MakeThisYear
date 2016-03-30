@@ -100,6 +100,7 @@ input[type=text] {
 }
 
 .email-row {
+	display: block;
 	width: 100%;
 }
 
@@ -167,4 +168,30 @@ h2 {
 
 .row {
 	margin: 30px auto;
+}
+
+/***********************************
+Media queries
+***********************************/
+
+@media screen and (max-width: 650px) {
+
+	.instructors li {
+		clear: both;
+		margin: 20px auto;
+		width: 100%;
+	}
+
+	.instructors li img {
+		/*clear: both;*/
+		float: left;
+		width: 30%;
+	}
+
+	.instructors p {
+		float: left;
+		width: 70%;
+	}
+
+
 }
