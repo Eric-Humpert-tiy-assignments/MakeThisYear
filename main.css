@@ -183,7 +183,6 @@ Media queries
 	}
 
 	.instructors li img {
-		/*clear: both;*/
 		float: left;
 		width: 30%;
 	}
@@ -193,5 +192,15 @@ Media queries
 		width: 70%;
 	}
 
+	input[type=text] {
+		display: block;
+		margin: 10px auto;
+		padding: 10px 0px;
+		width: 100%;
+	}
 
+	.email-button {
+		display: block;
+		width: 100%;
+	}
 }
