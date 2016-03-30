@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+/*added this code to fix the issues with adding padding to the email box */
 * {
 	box-sizing: border-box;}
 
